@@ -1,90 +1,111 @@
-# 3D 2025 Lexus IS 300 Architecture Lab
+# 🏎️ 3D 2025 BMW M3 Competition Touring (G81) Architecture Lab
 
-An English-first, high-fidelity interactive 3D engineering laboratory that explains how the **2025 Lexus IS 300** luxury sports sedan converts chemical fuel energy into rear-wheel drive (RWD) vehicle motion.
+An interactive, high-fidelity 3D engineering laboratory that breaks down the mechanical architecture and powertrain kinematics of the **2025 BMW M3 Competition Touring with M xDrive (G81)**.
 
-Built using **React 19, TypeScript, Three.js, and procedural 3D automotive geometry**, this project provides a granular disassembly from the complete unibody exterior down to microscopic internal engine, transmission, and differential components.
+Built using **React 19, TypeScript, Three.js, and authentic PBR 3D models**, this project provides a granular disassembly from the sculpted long-roof wagon unibody down to microscopic internal engine, transmission, turbocharger, and active all-wheel-drive components.
+
+🌐 **Live Interactive Web App**: [https://shuen-05.github.io/Car_Architecture_Lab/](https://shuen-05.github.io/Car_Architecture_Lab/)
 
 ---
 
 ## 🚗 Core Automotive Subsystems Modeled
 
 ### 1. Exterior & Monocoque Chassis
-- **Aerodynamics**: Prototypical Lexus IS 300 sports sedan proportions (Cd 0.28) with vortex-shedding mirrors and rocker panels.
-- **Spindle Grille**: Authentic 3D diamond mesh hourglass grille with chrome perimeter trim and integrated cooling air ducts.
-- **Lighting**: Triple-Beam LED projector headlamps with signature L-shaped daytime running lights (DRL) and full-width rear LED light blade.
-- **Chassis & Subframes**: Laser screw welded unibody floorpan, longitudinal transmission tunnel, front engine cradle subframe, strut tower cross-brace, and rear multi-link subframe.
-- **Front Double-Wishbone Suspension**: Forged aluminum upper A-arms, lower L-arms, coilover springs with monotube dampers, 26.5 mm anti-roll sway bar, and working rack-and-pinion tie rods.
-- **Rear Multi-Link Suspension**: 5-link independent rear geometry with upper camber links, lower control arms, trailing links, coil springs, and 17.0 mm stabilizer bar.
+- **Sculpted Wagon Silhouette**: Authentic 2025 BMW M3 Competition Touring proportions finished in Isle of Man Green Metallic with high-gloss M Shadowline exterior package.
+- **Cooling Architecture**: Frameless vertical BMW kidney grilles feeding airflow directly into the primary radiator, charge-air cooler, engine oil cooler, and transmission heat exchanger.
+- **Chassis Rigidity**: High-torsion unibody reinforced with front M Carbon Precision engine bay strut cross-brace, aluminum shear panels, underfloor cross-struts, and rigid subframes.
+- **Lighting**: BMW Laserlight / Adaptive LED headlights with signature hexagonal daytime running lights (DRL) and slim smoked L-shaped 3D LED taillights.
+- **Aerodynamics**: Front bumper air curtains, functional M side gills, sculpted carbon mirror caps, roof spoiler with integrated Gurney flap, and four 100 mm quad exhaust tips flanked by a gloss black rear diffuser.
 
-### 2. Engine Assembly (2.0L Turbocharged 8AR-FTS Inline-4)
-- **Architecture**: 1,998 cc displacement, square 86.0 mm bore × 86.0 mm stroke, 10.0:1 compression ratio, 241 hp @ 5,800 RPM, 258 lb-ft (350 Nm) @ 1,650–4,400 RPM.
-- **Twin-Scroll Turbocharger**: Dual-entry exhaust scroll (pairing cylinders 1–4 and 2–3) to eliminate exhaust blow-back interference, radial Inconel turbine wheel (up to 180,000 RPM), CNC billet compressor impeller, center bearing cartridge (CHRA) with oil/coolant passages, and pneumatic wastegate actuator limiting peak boost to 1.15 bar (16.7 PSI).
-- **Intake & Intercooler**: High-flow airbox, water-to-air charge cooler, electronic drive-by-wire throttle body with rotating butterfly plate, and tuned intake runners.
-- **Long Block & Valvetrain**: Crossflow aluminum cylinder head, DOHC with intake VVT-iW phaser (expanded crank timing for Otto/Atkinson cycle switching) and exhaust VVT-i gear, 16 poppet valves with dual springs, D-4ST direct injection (20 MPa) and low-pressure port injection (0.4 MPa), spark plugs, and individual pencil ignition coils.
-- **Rotating Assembly & Block**: Die-cast aluminum cylinder block with spiny cast-iron cylinder liners, cross-drilled forged steel crankshaft with 8 counterweights, harmonic damper pulley, fracture-split connecting rods, forged aluminum pistons with cooling galleries, and baffled oil pan.
+### 2. S58B30T0 3.0L Twin-Turbo Inline-6 Engine
+- **Architecture**: 2,993 cc displacement, 84.0 mm bore × 90.0 mm stroke, 9.3:1 compression ratio, producing **503 hp (510 PS) @ 6,250 RPM** and **650 Nm (479 lb-ft) @ 2,750–5,500 RPM**.
+- **Cylinder Block**: Motorsport-derived closed-deck die-cast aluminum block with wire-arc sprayed iron cylinder liners for friction reduction and high torsional rigidity under cylinder pressures exceeding 140 bar.
+- **Rotating Assembly**: Forged chrome-moly steel crankshaft with 12 counterweights, fractured-split connecting rods, and forged aluminum pistons with integrated crown cooling galleries.
+- **Twin Mono-Scroll Turbochargers**: Two compact single-scroll turbochargers (Turbo 1 feeding cylinders 1–3, Turbo 2 feeding cylinders 4–6) operating up to 2.1 bar (30.5 PSI) boost with electric wastegate actuators and indirect water-to-air intercooling.
+- **Valvetrain & Injection**: 3D-printed core cylinder head, double overhead camshafts (DOHC) with Double-VANOS variable valve timing and VALVETRONIC variable valve lift, 24 valves with sodium-filled exhaust stems, and 350-bar high-pressure direct injection.
 
-### 3. Lexus 8-Speed Sport Direct-Shift Transmission (AA81E)
-- **Torque Converter**: Impeller pump driven by engine flexplate, curved stator with one-way sprag clutch (1.95:1 launch multiplication), turbine runner driving input shaft, and electronic multi-plate lockup clutch (active in gears 2–8).
-- **Epicyclic Planetary Geartrain**: Lepelletier compound planetary gearsets (sun gears, planet carriers with pinions, outer ring/annulus gears) achieving 8 close-ratio forward gears:
-  - 1st: 4.596:1 | 2nd: 2.724:1 | 3rd: 1.864:1 | 4th: 1.464:1
-  - 5th: 1.231:1 | 6th: 1.000:1 (Direct) | 7th: 0.824:1 | 8th: 0.685:1 | R: 2.176:1
-- **Hydraulic Valve Body**: Ribbed cast casing with 8 high-speed linear electro-hydraulic solenoids and multi-disc wet clutch packs.
+### 3. ZF 8HP76 M Steptronic Transmission with Drivelogic
+- **Torque Converter**: Multi-plate lockup clutch locking immediately after drive-off to provide instantaneous mechanical response without slip.
+- **Gearbox Mechanics**: Four epicyclic planetary gearsets and five shift elements achieving 8 closely stacked forward gear ratios:
+  - **1st**: 5.000:1 | **2nd**: 3.200:1 | **3rd**: 2.143:1 | **4th**: 1.720:1
+  - **5th**: 1.314:1 | **6th**: 1.000:1 (Direct) | **7th**: 0.822:1 | **8th**: 0.640:1 | **R**: 3.456:1 | **Final Drive**: 3.154:1
+- **Drivelogic Modes**: Three selectable shift profiles (Mode 1: Comfort, Mode 2: Sport, Mode 3: Track sequential shift speed with aggressive throttle blips).
 
-### 4. Longitudinal Rear-Wheel Drivetrain
-- **Propeller Shaft**: Two-piece tubular steel driveshaft with rubber-isolated center steady bearing, rubber flex guibo coupling, and cross-spider cardan universal joints (U-joints).
-- **Rear Differential & Torsen LSD**: Hypoid spiral bevel ring and pinion (3.133:1 final drive ratio), differential carrier case with spider pinions, and Torsen Type B involute helical limited-slip elements providing up to 2.5:1 torque biasing to the gripping outside wheel.
-- **Axles, Brakes & Wheels**: Constant-velocity (CV) half-shafts with 6-ball joints and rubber boots, 334 mm ventilated front brake discs with 4-piston calipers, 310 mm rear ventilated discs, and 18-inch 5-split-spoke alloy wheels with performance summer tires.
+### 4. M xDrive AWD & Active M Differential
+- **Transfer Case**: Electronically controlled multi-plate wet clutch pack with continuous, infinitely variable front-to-rear torque distribution.
+- **Propeller Shaft**: Single-piece Carbon Fiber Reinforced Plastic (CFRP) driveshaft delivering high torsional stiffness with zero rotational flex.
+- **Active M Differential**: Electro-mechanical multi-plate limited-slip rear differential providing 0% to 100% active locking between rear wheels in milliseconds.
+- **M xDrive Drive Modes**:
+  - **4WD**: Maximum traction and stability in all road conditions.
+  - **4WD Sport**: Rear-biased torque distribution for dynamic throttle-steer agility.
+  - **2WD**: Pure rear-wheel drive with DSC disengaged for authentic track drifting.
+
+### 5. Suspension, Steering & Brakes
+- **Front Suspension**: Double-joint spring strut axle with lightweight aluminum wishbones, hydro-mounts, and dynamic camber/caster kinematics.
+- **Rear Suspension**: Five-link independent rear axle with Adaptive M electronically controlled dampers.
+- **M Servotronic Steering**: Variable-ratio electric rack-and-pinion steering with dynamic Ackermann geometry.
+- **M Carbon Ceramic Brakes**: 400 mm front cross-drilled ceramic discs with gold 6-piston fixed calipers; 380 mm rear ventilated discs with single-piston floating calipers.
+- **Wheels & Tires**: Staggered M forged double-spoke Style 826M wheels (19" front, 20" rear) wrapped in Michelin Pilot Sport 4S tires.
 
 ---
 
 ## 🎮 Interactive Controls & Kinematics
 
-| Control | Action | Keyboard Shortcut |
+| Control | Action | Shortcut |
 | :--- | :--- | :--- |
-| **Engine Start/Stop** | Toggles 8AR-FTS ignition and 750 RPM idle governor | Click Push-Button |
-| **Throttle Pedal** | Regulates fuel injection, manifold boost, and engine RPM | `W` or `Up Arrow` |
-| **Brake Pedal** | Clamps calipers and decelerates road wheels | `S`, `Down Arrow`, or `Space` |
-| **Steering Angle** | Turns front knuckles, moves rack, and differentiates rear wheel speeds | `A` (Left) / `D` (Right) |
-| **Gear Selector** | Shifts between Park (`P`), Reverse (`R`), Neutral (`N`), Drive (`D`), and Manual (`M`) | UI Click |
+| **Engine Start/Stop** | Toggles S58 Twin-Turbo ignition and idle governor (750 RPM) | UI Push-Button |
+| **Throttle Pedal** | Regulates fuel injection, boost pressure, and engine revs up to 7,200 RPM redline | `W` or `Up Arrow` |
+| **Brake Pedal** | Clamps 6-piston M calipers and decelerates road wheels | `S`, `Down Arrow`, or `Space` |
+| **Steering Angle** | Turns front knuckles with dynamic camber tilt and Ackermann geometry | `A` (Left) / `D` (Right) |
+| **Gear Selector** | Shifts between Park (`P`), Reverse (`R`), Neutral (`N`), and Drive/Manual (`D/M`) | UI Click |
 | **Paddle Shifters** | Sequential upshifting and downshifting through 8 speeds | `E` (Upshift) / `Q` (Downshift) |
-| **Exploded View** | Continuous 0% to 100% disassembly along physical expansion vectors | Slider |
-| **Cutaway Mode** | Longitudinal clipping plane exposing internal cylinders, valves, and gears | Header Button |
-| **X-Ray Mode** | Semi-transparent iridescent holographic chassis with glowing active mechanics | Header Button |
-| **Audio Synthesizer** | Web Audio API synthesizing 4-cylinder engine pitch, exhaust roar, and turbo spool | Header Button |
-| **Inspect Part** | Click any 3D macro-assembly to focus the camera and view technical specs | Left Click on 3D Mesh |
+| **M xDrive Modes** | Cycles between 4WD (AWD), 4WD Sport (Rear-Biased), and 2WD (Pure RWD) | Header Selector |
+| **Exploded View** | Disassembles vehicle exterior, chassis, and assemblies along physical axes | Slider (0–100%) |
+| **Cutaway Mode** | Longitudinal cross-section revealing internal cylinders, valvetrain, and gears | Header Button |
+| **X-Ray Mode** | Semi-transparent iridescent holographic chassis highlighting active mechanics | Header Button |
+| **Acoustics Synth** | Web Audio API synthesizing authentic straight-six acoustics, turbo spool & blow-off | Header Toggle |
+| **Interactive Inspect** | Click any 3D macro-assembly to focus the camera and view technical engineering data | Left Click on 3D Mesh |
 
 ---
 
 ## 📊 Live Powertrain Diagrams & Telemetry
 
-1. **8AR-FTS Dyno Power & Torque Curves**:
-   $$\text{Horsepower} = \frac{\text{Torque (Nm)} \times \text{RPM}}{7127}$$
-   Displays the authentic 350 Nm torque plateau and 241 HP peak with a live operating point tracking your throttle and engine RPM in real time.
-2. **Twin-Scroll Turbo Boost Pressure Map**:
-   $$\Pi_c = \frac{P_{boost} + P_{atm}}{P_{atm}}$$
-   Live radial gauge indicating vacuum (-0.6 bar) to peak boost (+1.15 bar / 16.7 PSI) and wastegate bypass duty cycle.
-3. **8-Speed Stepped Gear Ratio Reduction Chart**:
-   $$T_{wheel} = T_{engine} \times R_{tc} \times R_{gear} \times R_{diff}$$
-   Visualizes transmission gear reduction stages and dynamic wheel torque multiplication.
-4. **Differential Planetary Bevel Speed Split**:
-   $$N_{ring} = \frac{N_{left} + N_{right}}{2}$$
-   Live speed distribution bar demonstrating how the differential allows the outer wheel to spin faster through turns while the Torsen LSD limits wheel slip.
-5. **Guided Educational Chapters**:
-   5 interactive chapters explaining 4-stroke combustion, D-4ST dual injection, Atkinson/Otto cycle switching, twin-scroll scavenging, and epicyclic planetary transmissions.
+1. **S58 Dyno Power & Torque Curves**:
+   $$P_{\text{metric}} = \frac{T \times \text{RPM}}{7127}$$
+   Displays the authentic 650 Nm torque plateau (2,750–5,500 RPM) and 503 HP peak (6,250 RPM) with real-time operating point tracking.
+2. **Twin-Turbo Boost Pressure Gauge**:
+   $$\Pi_c = \frac{P_{\text{boost}} + P_{\text{atm}}}{P_{\text{atm}}}$$
+   Monitors manifold pressure from vacuum (-0.6 bar) to peak twin-turbo boost (+2.1 bar / 30.5 PSI) and wastegate bypass duty cycle.
+3. **M xDrive Front/Rear Torque Split Map**:
+   Visualizes real-time power vectoring between front and rear axles based on throttle input, steering angle, and selected drive mode (4WD / 4WD Sport / 2WD).
+4. **8-Speed Stepped Gear Ratio Reduction**:
+   $$T_{\text{wheel}} = T_{\text{engine}} \times R_{\text{gear}} \times R_{\text{final}}$$
+   Visualizes transmission reduction ratios and dynamic wheel torque multiplication.
+5. **Active M Differential Lock Percentage**:
+   Displays electro-mechanical locking percentage (0–100%) and wheel speed differentiation through tight corners.
 
 ---
 
-## 🛠️ Technology Stack & Development
+## 🛠️ Technology Stack
 
 - **Framework**: React 19, TypeScript
-- **3D Graphics**: Three.js (Procedural Parametric Geometries, PBR Standard & Physical Materials, Local Clipping Planes, ACES Filmic Tone Mapping, Soft Shadows)
-- **Audio Engine**: Web Audio API (Multi-oscillator harmonic synthesis, biquad resonant filters, noise bursts for turbo blow-off valve)
+- **3D Graphics**: Three.js (FBX PBR loader, procedural parametric meshes, clipping planes, ACES Filmic tone mapping, shadow mapping)
+- **Audio Synthesizer**: Web Audio API (multi-oscillator inline-6 harmonic modeling, resonant biquad filters, white-noise turbo blow-off valve)
 - **Styling**: Tailwind CSS v4, Lucide React icons
-- **Build Tool**: Vite 8
+- **Build & CI/CD**: Vite 8, Git LFS (Large File Storage), GitHub Actions workflow for automated GitHub Pages deployment
 
-### Running Locally
+---
+
+## 🚀 Running Locally
 
 ```bash
+# Clone repository with Git LFS
+git clone https://github.com/shuen-05/Car_Architecture_Lab.git
+cd Car_Architecture_Lab
+
+# Ensure Git LFS pulls binary assets
+git lfs pull
+
 # Install dependencies
 npm install
 
@@ -97,3 +118,9 @@ npm run build
 # Preview production build
 npm run preview
 ```
+
+---
+
+## 📄 License
+
+MIT License. Designed for educational and automotive engineering exploration.
